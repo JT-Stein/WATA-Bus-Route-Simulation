@@ -1,0 +1,50 @@
+
+BEGIN;
+
+PROJECT, "Route 8 Chart Order", "SIMAN", 11/11/26;
+
+ATTRIBUTES: 6;
+
+TALLIES:
+    Board_Gradplex:
+    Board_LemonHall:
+    Board_JonesHall:
+    Board_SmallHall:
+    Board_YatesLot:
+    Board_KaplanFirst:
+    Board_MonticelloLot1:
+    Board_SchoolEd:
+    Board_MtVernonLot4:
+    Board_FoodLion:
+    Board_RichmondHall:
+    Board_KaplanSecond:
+    Board_CommonsDining:
+    Board_WakeDr:
+    Board_ParkingDeck:
+    Board_IndianSprings:
+    Board_CaryStreet:
+    Board_CampusCenter:
+    Off_Gradplex:
+    Off_LemonHall:
+    Off_JonesHall:
+    Off_SmallHall:
+    Off_YatesLot:
+    Off_KaplanFirst:
+    Off_MonticelloLot1:
+    Off_SchoolEd:
+    Off_MtVernonLot4:
+    Off_FoodLion:
+    Off_RichmondHall:
+    Off_KaplanSecond:
+    Off_CommonsDining:
+    Off_WakeDr:
+    Off_ParkingDeck:
+    Off_IndianSprings:
+    Off_CaryStreet:
+    Off_CampusCenter:
+    Occupancy:
+    RouteTime;
+
+REPLICATE, 1, 0, 4100;
+
+END;
