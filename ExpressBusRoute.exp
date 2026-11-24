@@ -21,6 +21,6 @@ TALLIES:
     TotalBoardings:
     CycleTime;
 
-REPLICATE, 2, 0, 10;
+REPLICATE, 10, 0, 10;
 
 END;
