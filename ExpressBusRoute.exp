@@ -1,0 +1,26 @@
+BEGIN;
+
+PROJECT, "Route 8 Express", "SIMAN", 11/23/26;
+
+ATTRIBUTES: 12;
+
+TALLIES:
+    Board_Gradplex:
+    Board_LemonHall:
+    Board_JonesHall:
+    Board_SmallHall:
+    Board_YatesLot:
+    Off_Gradplex:
+    Off_LemonHall:
+    Off_JonesHall:
+    Off_SmallHall:
+    Off_YatesLot:
+    Off_GradplexReturn:
+    Occupancy:
+    RouteTime:
+    TotalBoardings:
+    CycleTime;
+
+REPLICATE, 2, 0, 10;
+
+END;
